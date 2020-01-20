@@ -1,0 +1,65 @@
+{
+  "name": "react-image-annotation",
+  "version": "0.9.10",
+  "description": "react-image-annotation React component",
+  "author": "Arian Allenson Valdez <arianallensonv@gmail.com> (http://arianv.com/)",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "deploy": "gh-pages -d demo/dist",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "start": "nwb serve-react-demo",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "dependencies": {
+    "styled-components": "^3.1.6"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.3",
+    "react-dom": ">=0.14"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "gh-pages": "^1.1.0",
+    "nwb": "0.21.x",
+    "raw-loader": "^0.5.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-syntax-highlighter": "^7.0.0",
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "env": [
+      "jest",
+      "jasmine"
+    ],
+    "globals": [
+      "fetch",
+      "URL"
+    ],
+    "parser": "babel-eslint"
+  },
+  "homepage": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Secretmapper/react-image-annotation"
+  },
+  "keywords": [
+    "react-component"
+  ]
+}
