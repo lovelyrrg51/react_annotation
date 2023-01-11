@@ -33,14 +33,14 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "gh-pages": "^1.1.0",
-    "nwb": "0.21.x",
+    "nwb": "0.25.x",
     "raw-loader": "^0.5.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-syntax-highlighter": "^7.0.0",
-    "standard": "^10.0.3"
+    "standard": "^17.0.0"
   },
   "standard": {
     "env": [
